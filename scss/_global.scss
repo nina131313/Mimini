@@ -1,0 +1,105 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+body {
+  font-family: 'OpenSans', sans-serif; 
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 30px;
+  color: $black;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+@mixin reset-list {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+@mixin bold {
+  font-family: 'OpenSans', sans-serif; 
+  font-weight: 700;
+}
+
+@mixin regular {
+  font-family: 'OpenSans', sans-serif; 
+  font-weight: 400;
+}
+
+@mixin light {
+  font-family: 'OpenSans', sans-serif; 
+  font-weight: 300;
+}
+
+@mixin semibold {
+  font-family: 'OpenSans', sans-serif; 
+  font-weight: 600;
+}
+
+@mixin playfair {
+  font-family: 'PlayfairDisplay', sans-serif; 
+  font-weight: 400;
+}
+
+.container {
+  max-width: 1770px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.last {
+  margin-right: 0 !important;
+}
+
+.link {
+  max-width: 275px;
+  width: 100%;
+  text-align: center;
+  background: $blue;
+  color: #fff;
+  line-height: 22px;
+  padding: 20px 0;
+  display: inline-block;
+  border-radius: 4px;
+  transition: all .3s;
+  border: 2px solid transparent;
+
+  &:hover {
+    background: #fff;
+    color: $blue;
+    border-color: $blue;
+  }
+
+  &:active {
+    background: #fff;
+    color: rgba($blue, .5);
+    border-color: rgba($blue, .5);
+  }
+}
+
+.title {
+  font-size: 80px;
+  line-height: 94px;
+}
+
+.subtitle {
+  font-size: 18px;
+  @include regular;
+}

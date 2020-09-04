@@ -1,0 +1,930 @@
+@media(max-width: 1400px) {
+  .header {
+    &__logo-link {
+      margin-right: 50px;
+    }
+  }
+
+  .video {
+    &__inner {
+      padding-left: 90px;
+      padding-right: 10px;
+    }
+  }
+
+  .features {
+    &__title,
+    &__subtitle {
+      padding-left: 90px;
+    }
+
+    &__inner {
+      background-position: top 390px left -100px;
+      background-size: 800px;
+    }
+  }
+
+  .quotes {
+    padding-left: 90px;
+  }
+
+  .compatibility {
+    &__title,
+    &__subtitle {
+      padding-left: 90px;
+    }
+  }
+
+  .design {
+    background-position: bottom -1px left -362px;
+
+    &__box {
+      &--first {
+        display: none;
+      }
+
+      &--second {
+        top: 235px;
+      }
+    }
+  }
+
+  .functions {
+    &__inner {
+      padding-left: 90px;
+    }
+  }
+
+  .contact {
+    &__inner {
+      padding-left: 90px;
+    }
+  }
+}
+
+@media(max-width: 1200px) {
+  .header {
+    &__link {
+      margin-right: 60px;
+    }
+
+    &__inner {
+      flex-direction: column;
+    }
+
+    &__aside {
+      max-width: 100%;
+      margin-right: 0;
+      padding-top: 0;
+      display: flex;
+      align-items: center;
+    }
+
+    &__img-small {
+      position: initial;
+      margin-right: 15px;
+    }
+
+    &__socials {
+      margin-top: 0;
+      transform: rotate(0deg);
+      position: initial;
+    }
+
+    &__slider {
+      margin-left: 0;
+    }
+
+    &__slider-item {
+      background-position: top -95px right -60px;
+    }
+
+    &__right {
+      right: 0;
+    }
+
+    .slick__arrow {
+      right: 0;
+    }
+
+    &__uptitle {
+      padding-top: 100px;
+
+      &:after {
+        top: 104px;
+      }
+    }
+
+    &__view {
+      right: 36%;
+      top: 16%;
+    }
+  }
+
+  .video {
+    &__inner {
+      padding-top: 50px;
+    }
+
+    &__link {
+      top: 10px;
+      right: 160px;  
+    }
+
+    &__title {
+      font-size: 75px;
+      line-height: 90px;
+    }
+  }
+
+  .design {
+    background-size: 1000px;
+
+    &__box {
+      &--second {
+        right: auto;
+      }
+
+      &--third {
+        top: 267px;
+        right: 235px;
+      }
+      
+      &--fifth {
+        top: 306px;
+      }
+
+      &--fourth {
+        right: 0;
+      }
+    }
+
+    &__scroll-box {
+      left: 0;
+      right: 0;
+    }
+  }
+
+  .title {
+    font-size: 75px;
+    line-height: 85px;
+  }
+
+  .features {
+    &__inner {
+      padding-bottom: 10px;
+    }
+
+    &__subtitle {
+      max-width: 100%;
+    }
+
+    &__item {
+      margin-bottom: 30px;
+    }
+
+    &__slider {
+      margin-left: 0;
+    }
+  }
+}
+
+@media(max-width: 992px) {
+  .header {
+    &__menu {
+      width: 0;
+      height: 0;
+      overflow: hidden;
+      position: absolute;
+      left: 0;
+      top: 100px;
+
+      &.active {
+        width: 100%;
+        height: 100%;
+        overflow: unset;
+        z-index: 10;
+      }
+    }
+
+    &__list {
+      flex-direction: column;
+      align-items: center;
+      background: #fff;
+      z-index: 10;
+    }
+
+    &__item {
+      width: 100%;
+      text-align: center;
+    }
+
+    &__link {
+      margin-right: 0;
+      padding: 15px 0;
+      display: inline-block;
+      width: 100%;
+    }
+
+    &__top {
+      position: relative;
+    }
+
+    &__img-small {
+      display: none;
+    }
+
+    &__uptitle {
+      padding-top: 50px;
+
+      &:after {
+        top: 54px;
+      }
+    }
+
+    &__right {
+      top: 50px;
+    }
+
+    .slick__arrow {
+      top: 225px;
+      
+      &--next {
+        top: 300px;
+      }
+    }
+
+    &__title {
+      font-size: 80px;
+      line-height: 90px;
+    }
+
+    &__view {
+      right: 49%;
+      top: 36%;
+    }
+  }
+
+  .video {
+    &__title {
+      font-size: 60px;
+      line-height: 70px;
+    }
+
+    &__inner {
+      padding-left: 50px;
+    }
+  }
+
+  .features {
+    &__inner {
+      padding-top: 50px;
+      background-position: top 265px left -140px;
+    }
+    
+    &__title,
+    &__subtitle {
+      padding-left: 50px;
+    }
+  }
+
+  .title {
+    font-size: 60px;
+    line-height: 70px;
+  }
+
+  .design {
+    background-image: none !important;
+
+    &__wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      margin: 0 -15px;
+    }
+
+    &__box {
+      position: initial;
+
+      &:before {
+        display: none;
+      }
+    }
+
+    &__inner {
+      min-height: 1100px;
+    }
+  }
+
+  .quotes {
+    padding-left: 50px;
+    padding-top: 50px;
+  }
+
+  .compatibility {
+    padding-top: 50px;
+
+    &__title,
+    &__subtitle {
+      padding-left: 50px;
+    }
+
+    .slick {
+      &__arrow {
+        top: -100px;
+      }
+    }
+
+    &__slider {
+      text-align: center;
+    }
+
+    &__slide {
+      width: 100% !important;
+    }
+
+    &__img {
+      margin: 0 auto;
+      width: 50%;
+    }
+  }
+
+  .functions {
+    &__inner {
+      padding-left: 50px;
+      padding-top: 50px;
+    }
+
+    &__item {
+      width: 100%;
+
+      &:before {
+        top: -8px;
+      }
+    }
+
+    &__text {
+      max-width: 100%;
+    }
+  }
+
+  .press {
+    padding-top: 50px;
+  }
+
+  .signup {
+    padding: 50px 0;
+  }
+
+  .faq {
+    padding: 50px 0 20px;
+
+    &__name {
+      font-size: 20px;
+      line-height: 30px;
+    }
+
+    &__item {
+      &:before {
+        top: 0;
+      }
+    }
+  }
+
+  .articles {
+    padding-top: 50px;
+  }
+
+  .accessories {
+    padding: 50px 0;
+
+    &__item {
+      width: 48%;
+
+      &:nth-child(even) {
+        margin-right: 0;
+      }
+
+      &:nth-child(3) {
+        margin-right: 15px;
+      }
+    }
+
+    &__box {
+      padding: 0 10px;
+    }
+
+    &__name {
+      font-size: 25px;
+      line-height: 30px;
+    }
+  }
+
+  .articles {
+    &__item {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__box {
+      width: 100%;
+      padding: 35px 10px;
+
+      &--reverse {
+        order: 2;
+      }
+    }
+
+    &__text {
+      max-width: 100%;
+    }
+
+    &__play {
+      top: 15%;
+      right: 55%;
+
+      &:before {
+        width: 100px;
+        height: 100px;
+      }
+
+      &:after {
+        left: 50px;
+        top: 50px;
+      }
+    }
+  }
+
+  .contact {
+    &__inner {
+      padding-left: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      padding-right: 15px;
+    }
+  }
+
+  .buy {
+    &__inner {
+      padding: 50px 0;
+    }
+  }
+
+  .footer {
+    &__inner {
+      padding: 50px 0;
+    }
+  }
+}
+
+@media(max-width: 768px) {
+  .header {
+    &__slider-item {
+      background-position: top -95px right -80px;
+      background-size: 600px;
+    }
+
+    &__buy {
+      margin-bottom: 70px;
+    }
+
+    .slick__arrow {
+      display: none;
+    }
+
+    &__title {
+      font-size: 60px;
+      line-height: 70px;
+    }
+
+    &__view {
+      right: 38%;
+      top: 10%;
+    }
+  }
+  
+  .video {
+    &__link {
+      top: 215px;
+      right: 95px;
+
+      &:before {
+        width: 90px;
+        height: 90px;
+      }
+
+      &:after {
+        top: 45px;
+        left: 50px;
+      }
+    }
+
+    &__title {
+      font-size: 50px;
+      line-height: 55px;
+      padding-right: 75px;
+    }
+  }
+
+  .title {
+    font-size: 50px;
+    line-height: 60px;
+  }
+
+  .design {
+    &__inner {
+      padding-bottom: 85px;
+    }
+
+    &__box {
+      width: 100%;
+    }
+  }
+
+  .features {
+    &__inner {
+      background-image: none !important;
+      padding-bottom: 235px;
+    }
+
+    &__list {
+      margin-left: 50px;
+      max-width: 100%;
+      padding-right: 65px;
+    }
+
+    &__slider {
+      margin-left: 50px;
+      flex-direction: column;
+    }
+  }
+
+  .quotes {
+    &__text {
+      font-size: 37px;
+      line-height: 45px;
+    }
+  }
+
+  .compatibility {
+    .slick {
+      &__arrow {
+        left: 65px;
+        right: auto;
+        top: -50px;
+
+        &--next {
+          left: 110px;
+        }
+      }
+    }
+
+    &__img {
+      width: 60%;
+    }
+  }
+
+  .press {
+    &__subtitle {
+      margin-bottom: 50px;
+    }
+  }
+
+  .signup {
+    &__inner {
+      padding: 50px 35px 0px;
+      max-width: 900px;
+      min-height: 590px;
+    }
+
+    &__title {
+      font-size: 47px;
+    }
+  }
+
+  .faq {
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__list {
+      margin-right: 0;
+    }
+
+    &__text {
+      max-width: 100%;
+    }
+
+    &__item {
+      &:before {
+        top: -11px;
+      }
+    }
+
+    &__subtitle {
+      margin-bottom: 50px;
+    }
+  }
+
+  .articles {
+    &__title,
+    &__subtitle {
+      padding: 0 10px;
+    }
+
+    &__img {
+      width: 100%;
+    }
+
+    &__play {
+      top: 20%;
+      right: 59%;
+    }
+  }
+}
+
+@media(max-width: 576px) {
+  .header {
+    &__slider-item {
+      background-position: top 135px right -80px;
+      background-size: 300px;
+    }
+
+    &__right {
+      display: none;
+    }
+
+    &__title {
+      font-size: 45px;
+      line-height: 55px;
+    }
+
+    &__text {
+      max-width: 100%;
+    }
+
+    &__view {
+      display: none;
+    }
+  }
+
+  .video {
+    &__inner {
+      padding-left: 15px;
+    }
+
+    &__title {
+      font-size: 30px;
+      line-height: 35px;
+      padding-right: 50px;
+    }
+
+    &__link {
+      top: 140px;
+      right: 70px;
+
+      &:before {
+        width: 60px;
+        height: 60px;
+      }
+
+      &:after {
+        top: 30px;
+        left: 36px;
+      }
+    }
+  }
+
+  .features {
+    &__title,
+    &__subtitle {
+      padding-left: 15px;
+    }
+
+    &__slider {
+      margin-left: 15px;
+    }
+
+    &__list {
+      margin-left: 15px;
+      padding-right: 30px;
+    }
+
+    &__name {
+      font-size: 18px;
+      line-height: 18px;
+      margin-bottom: 20px;
+    }
+
+    &__item {
+      padding-left: 60px;
+    }
+
+    &__text {
+      line-height: 25px;
+    }
+
+    &__slide {
+      &:hover {
+        .features__img {
+          width: 265px;
+        }
+      }
+    }
+  }
+
+  .title {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  
+  .quotes {
+    padding-left: 15px;
+
+    &__text {
+      font-size: 30px;
+      line-height: 35px;
+    }
+  }
+
+  .compatibility {
+    &__title,
+    &__subtitle {
+      padding-left: 15px;
+    }
+
+    .slick {
+      &__arrow {
+        left: 35px;
+
+        &--next {
+          left: 85px;
+        }
+      }
+    }
+
+    &__title {
+      font-size: 35px;
+      line-height: 45px;
+    }
+  }
+
+  .functions {
+    &__inner {
+      padding-left: 15px;
+    }
+
+    &__name {
+      font-size: 20px;
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+
+    &__subtitle {
+      margin-bottom: 70px;
+    }
+
+    &__item {
+      margin-bottom: 50px;
+    }
+
+    &__inner {
+      padding-bottom: 70px;
+    }
+
+    &__link {
+      &:before {
+        right: 20px;
+      }
+    }
+  }
+
+  .press {
+    &__wrapper {
+      flex-direction: column;
+    }
+
+    &__list {
+      margin-right: 0;
+    }
+
+    &__item {
+      margin-bottom: 50px;
+    }
+  }
+
+  .signup {
+    &__title {
+      margin-bottom: 30px;
+      font-size: 30px;
+      line-height: 40px;
+    }
+
+    &__subtitle {
+      margin-bottom: 30px;
+    }
+
+    &__inner {
+      padding: 50px 15px 0px;
+    }
+  }
+
+  .articles {
+    &__name {
+      font-size: 20px;
+      line-height: 20px;
+      margin-bottom: 25px;
+    }
+
+    &__buy {
+      font-size: 25px;
+      line-height: 30px;
+      padding: 40px 0;
+    }
+
+    &__play {
+      top: 10%;
+      right: auto;
+      left: 40%;  
+    }
+  }
+
+  .accessories {
+    &__item {
+      width: 100%;
+      margin-right: 0;
+    }
+
+    &__name {
+      font-size: 20px;
+      line-height: 25px;
+    }
+
+    &__text {
+      line-height: 20px;
+    }
+  }
+
+  .contact {
+    &__inner {
+      padding-left: 15px;
+    }
+  }
+}
+
+@media(max-width: 360px) {
+  .header {
+    &__buy {
+      margin-bottom: 20px;
+    }
+
+    &__slider-item {
+      background-position: top 100px right -80px;
+    }
+  }
+
+  .video {
+    &__inner {
+      min-height: 810px;
+    }
+  }
+
+  .quotes {
+    min-height: 750px;
+
+    &__text {
+      font-size: 25px;
+    }
+  }
+
+  .design {
+    &__img {
+      width: 90%;
+    }
+  }
+
+  .compatibility {
+    &__img {
+      width: 100%;
+    }
+  }
+
+  .signup {
+    &__inner {
+      min-height: 620px;
+    }
+
+    &__title {
+      font-size: 22px;
+      line-height: 22px;
+    }
+  }
+
+  .buy {
+    &__title {
+      font-size: 30px;
+      line-height: 40px;
+    }
+  }
+}
