@@ -61,6 +61,7 @@
 
   &__box {
     display: flex;
+    position: relative;
   }
 
   &__btn {
@@ -118,6 +119,35 @@
           stroke: rgba($blue, .5);
         }
       }
+    }
+  }
+
+  &__input {
+    position: absolute;
+    top: 45px;
+    right: 0;
+    color: $black;
+    opacity: 0;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    padding: 0;
+    border: none;
+    transition: all .3s;
+
+    &::placeholder {
+      color: $black;
+    }
+
+    &.active {
+      opacity: 1;
+      overflow: unset;
+      padding: 15px 10px;
+      border: 2px solid $blue;
+      min-width: 250px;
+      width: 100%;
+      height: 100%;
+      z-index: 5;
     }
   }
 
@@ -212,6 +242,28 @@
     width: 100%;
     position: relative;
     margin-left: 215px;
+  }
+
+  &__info {
+    position: absolute;
+    right: 51%;
+    top: 13%;
+    background: #fff;
+    opacity: 0;
+    overflow: hidden;
+    width: 0;
+    height: 0;
+    transition: all .3s;
+
+    &.active {
+      border-radius: 16px;
+      padding: 10px;
+      border: 1px solid $blue;
+      opacity: 1;
+      overflow: unset;
+      min-width: 300px;
+      min-height: 50px;
+    }
   }
 
   &__slider-item {

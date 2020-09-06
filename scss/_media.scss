@@ -101,6 +101,11 @@
       margin-left: 0;
     }
 
+    &__info {
+      right: 24%;
+      top: 11%;
+    }
+
     &__slider-item {
       background-position: top -95px right -60px;
     }
@@ -211,6 +216,11 @@
         overflow: unset;
         z-index: 10;
       }
+    }
+
+    &__info {
+      right: 13%;
+      top: 44%;
     }
 
     &__list {
@@ -496,6 +506,16 @@
       background-size: 600px;
     }
 
+    &__info {
+      right: 9%;
+      top: 4%;
+      font-size: 13px;
+
+      &.active {
+        min-width: 250px;
+      }
+    }
+
     &__buy {
       margin-bottom: 70px;
     }
@@ -671,6 +691,14 @@
       display: none;
     }
 
+    &__uptitle {
+      padding-top: 80px;
+
+      &:after {
+        top: 83px;
+      } 
+    }
+
     &__title {
       font-size: 45px;
       line-height: 55px;
@@ -682,6 +710,14 @@
 
     &__view {
       display: none;
+    }
+
+    &__box {
+      position: initial;
+    }
+
+    &__input {
+      top: 100px;
     }
   }
 
@@ -905,7 +941,7 @@
 
   .video {
     &__inner {
-      min-height: 810px;
+      min-height: 730px;
     }
   }
 

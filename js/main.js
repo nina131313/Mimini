@@ -46,6 +46,14 @@ $(function() {
     $('.header__menu').toggleClass('active');
   });
 
+  $('.header__search').on('click', function() {
+    $('.header__input').toggleClass('active');
+  });
+
+  $('.header__view').on('click', function() {
+    $('.header__info').toggleClass('active');
+  });
+
   $('.quotes__slider').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
