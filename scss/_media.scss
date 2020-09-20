@@ -260,7 +260,7 @@
     }
 
     &__right {
-      top: 50px;
+      top: 40px;
     }
 
     .slick__arrow {
@@ -914,6 +914,16 @@
 
     &__text {
       line-height: 20px;
+    }
+  }
+
+  .faq {
+    &__item {
+      padding-left: 0;
+    }
+
+    &__name {
+      padding-left: 78px;
     }
   }
 
