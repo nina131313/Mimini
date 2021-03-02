@@ -9,7 +9,7 @@
   &__top {
     display: flex;
     justify-content: space-between;
-    padding-top: 55px;
+    padding-top: 20px;
     align-items: center;
   }
 
@@ -44,7 +44,7 @@
     line-height: 13px;
     @include bold;
     margin-right: 115px;
-    padding: 68px 0 10px;
+    padding: 33px 0 10px;
     transition: all .3s;
     border-top: 3px solid transparent;
 
@@ -305,6 +305,7 @@
   &__buy {
     position: relative;
     margin-bottom: 155px;
+    padding-right: 70px;
 
     &:after {
       content: '';
@@ -579,9 +580,14 @@
 .quotes {
   background: url(../images/quotes-bg.jpg) center no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
+  height: 100%;
   padding-left: 260px;
   padding-top: 150px;
+
+  &__slider {
+    padding-right: 15px;
+  }
 
   &__text {
     font-size: 42px;
@@ -868,6 +874,7 @@
 
   &__link {
     position: relative;
+    padding-right: 70px;
 
     &:before {
       content: '';
@@ -1386,6 +1393,7 @@
 
   &__link {
     position: relative;
+    padding-right: 70px;
 
     &:after {
       content: '';
