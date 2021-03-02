@@ -38,7 +38,13 @@ $(function() {
     `,
     speed: 1000,
     fade: true,
-    cssEase: 'linear'
+    cssEase: 'linear',
+    responsive: [
+      {
+        breakpoint: 576,
+        settings: "unslick"
+      }
+    ]
   });
   
   $('.header__btn').on('click', function() {
@@ -59,6 +65,7 @@ $(function() {
     slidesToScroll: 1,
     arrows: false,
     dots: true,
+    autoplay: true,
   });
 
   $('.compatibility__slider').slick({
