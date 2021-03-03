@@ -707,7 +707,7 @@
     }
     
     &__info {
-      display: none;
+      display: none !important;
     }
 
     &__scroll-name {
